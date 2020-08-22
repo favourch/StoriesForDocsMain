@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#1b1f20"/>
+
+  <title>Like Stories</title>
+
+  <meta name="description" content="Slide como o Stories do Instagram. Desenvolvido com Vanilla JavaScript, HTML5 e CSS3.">
+  <meta name="keywords" content="Slide, Slideshow, Carousel, Stories, JavaScript, Vanilla JS, HTML5, CSS3">
+    
+  <meta name="robots" content="index">
+
+  <!-- Estilos da página -->
+  <link rel="stylesheet" href="./css/style.css">
+  <!-- Estilos do slider -->
+  <link rel="stylesheet" href="./css/style-slide.css">
+</head>
+<body>
+  <header>
+    <h1>Like Stories</h1>
+    <p><a href="https://github.com/lucasbecker/like-stories">GitHub</a></p>
+  </header>
+
+  <!-- Slideshow -->
+  <div data-slide="slide" class="slide">
+    
+    <div class="slide-items">
+      <!-- Imagens do slide -->
+      <img src="./img/giraffe1.jpg" alt="Girafa do Slide 1">
+      <img src="./img/giraffe2.jpg" alt="Girafa do Slide 2">
+      <img src="./img/giraffe3.jpg" alt="Girafa do Slide 3">
+      <img src="./img/giraffe4.jpg" alt="Girafa do Slide 4">
+    </div>
+
+    <nav class="slide-nav">
+      <!-- Traços animados do topo -->
+      <div class="slide-thumb"></div>
+      <!-- Navegação entre os slides -->
+      <button class="slide-prev">Anterior</button>
+      <button class="slide-next">Próximo</button>
+    </nav>
+  </div>
+
+  <footer>
+    <p>2020 © Lucas Becker</p>
+    <p>Agradecimentos especiais à <a href="https://www.origamid.com/" target="_blank">Origamid</a>.</p>
+  </footer>
+
+  <script src="./js/script-slide.js"></script>
+</body>
+</html>
